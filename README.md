@@ -11,12 +11,16 @@ To use this repository, the user must recursively clone all modules into a catki
 
 # Instructions on how to launch trial 1:
 roslaunch auav_2022_sample trial_1.launch
+
 Use Qgroundcontrol to takeoff copter
+
 Use Qgroundcontrol to switch to offboard mode
 
 # Instructions on how to launch trial 2:
 roslaunch auav_2022_sample trial_2.launch
+
 Use Qgroundcontrol to takeoff copter
+
 Use Qgroundcontrol to switch to offboard mode
 
 The code is running properly when information messages are outputted to the terminal which launched the simulation.
