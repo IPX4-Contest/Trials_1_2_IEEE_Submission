@@ -3,8 +3,8 @@ This is the repository submission for team IEEE UAS 2022 PX4 Vision for the tria
 
 # Required software
 Versions of software used for this repository:
-Ubuntu 20.04
-ROS Noetic
+Ubuntu 20.04,
+ROS Noetic,
 Gazebo11
 
 To use this repository, the user must recursively clone all modules into a catkin src directory, then perform a "catkin build" in order to build everything properly. Once this is done one must source both ROS Noetic and the setup.bach file created in the catkin_ws/devel.
