@@ -1,6 +1,7 @@
 # Trials_1_2_IEEE_Submission
 This is the repository submission for team IEEE UAS 2022 PX4 Vision for the trial 1 and trial 2 submission
 
+# Required software
 Versions of software used for this repository:
 Ubuntu 20.04
 ROS Noetic
@@ -20,7 +21,7 @@ Use Qgroundcontrol to switch to offboard mode
 
 The code is running properly when information messages are outputted to the terminal which launched the simulation.
 
-
+# Notes
 NOTE 1:
 We opted to manually takeoff the drone and switch into offboard mode for safety purposes. We did not want to have code floating around that would automatically do this for a physical drone, which could potentially harm people should the code be ran accidentally. This does mean that the Gazebo truck starts moving before the drone is in ofboard mode. This does not affect our code for reasons described in NOTE 2 below.
 
